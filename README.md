@@ -52,4 +52,4 @@ print("Training takes {:.2f}minutes".format(duration/60)) #초 단위로 저장�
   train.py 를 통해 학습한 model을 model.pth 형태로 저장 및 다운로드하여 test.py 파일이 있는 곳에 업로드하고, 이를 torch.load 로 불러와서 동작하도록 작성
   (Validation set 을 test 하도록 작성)
   
-예시 코드       [[test.py]()]
+예시 코드       [[test.py](https://github.com/seunghyeon528/TA_EEE4178_Project_2021/blob/main/test.py)]
