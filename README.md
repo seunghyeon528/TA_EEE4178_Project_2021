@@ -8,7 +8,12 @@
 
 
 ## 보고서에 첨부하여야 하는 사항 & test.py template
-1. GPU 환경
-2. Train 소요 시간
-3. loss log
-4. Test.py
+1. GPU 종류
+```python
+!nvidia-smi
+```
+![image](![image](https://user-images.githubusercontent.com/77431192/144525273-5bc55187-385c-4dff-b45a-57222b3fc1bb.png)
+
+3. Train 소요 시간
+4. loss log
+5. Test.py
