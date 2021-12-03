@@ -45,10 +45,12 @@ print("Training takes {:.2f}minutes".format(duration/60)) #초 단위로 저장�
 ```
 
 
-**3. loss log**
+**3. Train log**
 
   최하단부만 캡처
 
 
 **4. Test.py**
+  
+
 
