@@ -3,7 +3,7 @@
 
 ## Final Project
 1. 프로젝트 개요
-2. 데이터셋 [[train]()] / [[valid]()]
+2. 데이터셋 [[train]()] / [[valid]()] / test 는 평가 시 공개
 3. [데이터 로드를 위한 참고 코드 (dataset & dataloader)](https://github.com/seunghyeon528/TA_EEE4178_Project_2021/blob/main/Project_utils.ipynb)
 
 
