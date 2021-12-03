@@ -22,7 +22,8 @@
 !nvidia-smi
 ```
 
-![image](https://user-images.githubusercontent.com/77431192/144525273-5bc55187-385c-4dff-b45a-57222b3fc1bb.png)
+![image](https://user-images.githubusercontent.com/77431192/144526328-cf7c7a2b-7814-49fe-b4c9-dfd14d553416.png)
+
 
 
 
