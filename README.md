@@ -5,7 +5,7 @@
 
 
 1. 프로젝트 개요
-2. 데이터셋 [[train](https://drive.google.com/file/d/1FOh5MQtzpndZX8nMTQpdMsUWA9RI-Tso/view?usp=sharing)] / [[valid](https://drive.google.com/file/d/1vPfXf5HXsT_bXh8Zz2b-2oWZKXJLDarU/view?usp=sharing)] / test 는 평가 시 공개
+2. 데이터셋 [[train](https://drive.google.com/file/d/1JjO3Qy_jmFs2JKyLZzPLRp3H0k6Ai1bE/view?usp=sharing)] / [[valid](https://drive.google.com/file/d/14lbs_PS6U83m7JDlqzuB80UQKFT018PZ/view?usp=sharing)] / test 는 평가 시 공개
 3. 데이터 로드를 위한 참고 코드 [[Project_utils.ipynb](https://github.com/seunghyeon528/TA_EEE4178_Project_2021/blob/main/Project_utils.ipynb)]
 
 
