@@ -17,7 +17,7 @@
 ## 보고서에 첨부하여야 하는 사항 & test.py template
 
 
-** 1. GPU 종류 **
+**1. GPU 종류**
 ```python
 !nvidia-smi
 ```
@@ -26,7 +26,7 @@
 
 
 
-** 2. Train 소요 시간 **
+**2. Train 소요 시간**
 
 
   학습 들어가기 직전 (for epoch in range(num_epochs) 반복문 들어가기 전) 
@@ -44,10 +44,10 @@ print("Training takes {:.2f}minutes".format(duration/60)) #초 단위로 저장�
 ```
 
 
-3. loss log
+**3. loss log**
 
   최하단부만 캡처
 
 
-4. Test.py
+**4. Test.py**
 
