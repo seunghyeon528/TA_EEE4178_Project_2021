@@ -11,7 +11,6 @@ from torch.utils.data import Dataset
 from torchvision import models, transforms
 
 
-os.environ["CUDA_VISIBLE_DEVICES"]="0" # 특정 번호 GPU 만 사용하고 싶을 때
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
@@ -51,6 +50,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_data,
 
 
 
+
 ## -- model class
 class Mynet(nn.Module):
     def __init__(self, num_classes=num_classes):
@@ -63,6 +63,7 @@ class Mynet(nn.Module):
         return x
 
 
+            
 
 ## -- load model
 model_test = Mynet().to(device)
