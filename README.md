@@ -3,6 +3,8 @@
 
 ## Final Project
 
+![image](https://user-images.githubusercontent.com/77431192/144526526-6523fa76-c3b3-4e84-8e32-a6b6667f8cb0.png)
+
 
 1. 프로젝트 개요
 2. 데이터셋 [[train]()] / [[valid]()] / test 는 평가 시 공개
