@@ -35,6 +35,7 @@ class MyDataset(Dataset):
 train_data = MyDataset("./Font_npy_90_train") # unzip 한 Font_npy_90_train file path
 valid_data = MyDataset("./Font_npy_90_train") # unzip 한 Font_npy_90_val file path
 
+
 # define dataloader
 batch_size = 50
 train_loader = torch.utils.data.DataLoader(dataset=train_data,
