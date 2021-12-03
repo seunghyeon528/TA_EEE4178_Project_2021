@@ -5,9 +5,9 @@
 
 
 1. 프로젝트 개요
-2. 데이터셋 [[train](https://drive.google.com/file/d/1JjO3Qy_jmFs2JKyLZzPLRp3H0k6Ai1bE/view?usp=sharing)] / [[valid](https://drive.google.com/file/d/14lbs_PS6U83m7JDlqzuB80UQKFT018PZ/view?usp=sharing)] / test 는 평가 시 공개
-3. 데이터 로드를 위한 참고 코드 [[Project_utils.ipynb](https://github.com/seunghyeon528/TA_EEE4178_Project_2021/blob/main/Project_utils.ipynb)]
-
+2. 데이터셋 [[train](https://drive.google.com/file/d/12RLV2Vgg9WBhU9ceIaNtYm77w4NQGB7M/view?usp=sharing)] / [[valid](https://drive.google.com/file/d/19m2D4ehI6gZ1JMgM4SedNIHmSwWwFDMp/view?usp=sharing)] / test 는 평가 시 공개
+3. 데이터 다운로드, 마운트 등의 참고 코드 [[Project_utils.ipynb](https://github.com/seunghyeon528/TA_EEE4178_Project_2021/blob/main/Project_utils.ipynb)]
+4. 데이터 로드를 위한 custom dataset 참고 코드
 
 
 
