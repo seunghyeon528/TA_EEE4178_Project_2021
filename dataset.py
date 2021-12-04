@@ -32,8 +32,8 @@ class MyDataset(Dataset):
 
 
 # load dataset 
-train_data = MyDataset("./Font_npy_90_train") # unzip 한 Font_npy_90_train file path
-valid_data = MyDataset("./Font_npy_90_train") # unzip 한 Font_npy_90_val file path
+train_data = MyDataset("/content/Font_npy_90_train") # google drive 내 디렉토리 사용
+valid_data = MyDataset("/content/Font_npy_90_val") 
 
 
 # define dataloader
