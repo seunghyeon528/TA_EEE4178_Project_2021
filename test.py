@@ -83,8 +83,8 @@ with torch.no_grad():
         correct += (predicted==labels).sum()
 
     # batch size 가 7800의 양수라면 아래 방식으로 해도 정확
-    print('Accuracy of the last_model network on the {} test images: {} %'.\
-          format(len(test_loader)*batch_size, 100 * correct / (len(test_loader)*batch_size)))
+#     print('Accuracy of the last_model network on the {} test images: {} %'.\
+#           format(len(test_loader)*batch_size, 100 * correct / (len(test_loader)*batch_size)))
             
     # batch size 가 7800 의 양수가 아니라면 아래 방식으로 해야만 정확한 accuracy 얻을 수 있음. 
     print('Accuracy of the last_model network on the {} test images: {} %'.\
