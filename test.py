@@ -16,7 +16,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 ## -- hyperparameters 모델 isntance 생성에 필요한 argument 들 적어주기
 num_classes = 52 
-batch_size = 50
+batch_size = 50 # len(test_data) = 7800 의 약수
 ///
 
 
