@@ -63,13 +63,13 @@ print("Training takes {:.2f}minutes".format(duration/60)) #초 단위로 저장�
 
   학습 도중 valid dataloader 를 이용해서 valid 성능을 측정할 때, 기존의 실습 때 사용하였던 아래와 같은 방식은 batch size 가 valid dataset 길이 (7800) 의 약수일 때만 정확합니다.
  ```python
-     print('Accuracy of the last_model network on the {} test images: {} %'.\
-           format(len(test_loader)*batch_size, 100 * correct / (len(test_loader)*batch_size)))
+     print('Accuracy of the last_model network on the {} valid images: {} %'.\
+           format(len(valid_loader)*batch_size, 100 * correct / (len(valid_loader)*batch_size)))
  ```
   Torch dataloader 는 기본적으로 마지막에 남는 데이터를 그대로 전달 (예를 들어 batch size 를 1000 으로 하면 마지막에 800개만 남음.) 하기 때문에, 위와 같은 방식으로 하면 valid accuracy 가 더 낮게 나옵니다.
   
   이 경우에 아래 방식으로 print 를 하면 정확힌 valid accuracy 값을 확인하실 수 있습니다. 
    ```python
-    print('Accuracy of the last_model network on the {} test images: {} %'.\
-          format(len(test_data), 100 * correct / len(test_data)))
+    print('Accuracy of the last_model network on the {} valid images: {} %'.\
+          format(len(valid_data), 100 * correct / len(valid_data)))
  ```       
