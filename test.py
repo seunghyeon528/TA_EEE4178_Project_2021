@@ -83,4 +83,4 @@ with torch.no_grad():
         correct += (predicted==labels).sum()
         
     print('Accuracy of the last_model network on the {} test images: {} %'.\
-          format(len(test_loader)*batch_size, 100 * correct / (len(test_loader)*batch_size)))
+          format(len(test_data), 100 * correct / (len(test_data))))
